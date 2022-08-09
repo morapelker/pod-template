@@ -32,10 +32,14 @@ Pod::Spec.new do |s|
 
   s.source_files = '${POD_NAME}/Classes/**/*'
   s.swift_version = '5.0'
-  # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
-  # }
 
+  s.resources = ['${POD_NAME}/Assets/*.{xcassets}']
+  s.resource_bundles = {
+    '${POD_NAME}' => ['${POD_NAME}/Assets/*']
+  }
+
+  s.dependency 'Swinject'
+  s.dependency 'SnapKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
