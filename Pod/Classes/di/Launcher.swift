@@ -7,10 +7,8 @@
 
 import Foundation
 import Swinject
-import TedoooNotificationApi
-import LoginProviderApi
 
-public class NAMELauncher {
+public class Launcher {
     
     
     public init(container: Container){
