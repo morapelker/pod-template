@@ -1,6 +1,8 @@
 use_frameworks!
 
 platform :ios, '13.0'
+source 'https://github.com/TedoooTeam/tedooo-pod-repo.git'
+source 'https://cdn.cocoapods.org/'
 
 target '${POD_NAME}_Example' do
   pod '${POD_NAME}', :path => '../'
