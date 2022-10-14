@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '13.0'
+platform :ios, '13.4'
 source 'https://github.com/TedoooTeam/tedooo-pod-repo.git'
 source 'https://cdn.cocoapods.org/'
 
